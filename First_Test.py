@@ -54,21 +54,6 @@ class First_Test(unittest.TestCase):
         #验证新添加的文章标题在表格内
         self.assertTrue(title in table.text)
         
-        
-        
-        
-        
-        
-        
-    
-        
-        
-        
-        
-        
-        
-        
-        
     def tearDown(self):
         time.sleep(3)
         print 'close page'
