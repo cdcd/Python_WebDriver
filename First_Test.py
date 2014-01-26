@@ -5,8 +5,6 @@ import time
 from login import login
 from com.study import article
 
-
-
 class First_Test(unittest.TestCase):
     dr = None    
     all_article_url = "http://localhost/wordpress/wp-admin/edit.php"
@@ -15,7 +13,6 @@ class First_Test(unittest.TestCase):
     def setUp(self):
         self.dr = webdriver.Chrome()
         print 'setUp'
-        
         
     def test_class_one(self):   
         #登陆  
