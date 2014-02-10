@@ -3,7 +3,7 @@ import unittest
 from selenium import webdriver
 import time
 from login import login
-from com.study import article
+import article
 
 class First_Test(unittest.TestCase):
     dr = None    
